@@ -1,0 +1,7 @@
+{
+  "name": "duckduckgo.com",
+  "description": "Generated from xos-webapp-creator",
+  "type": "app",
+  "version": "1.0.0",
+  "icon": "logo.png"
+}

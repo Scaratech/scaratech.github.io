@@ -1,0 +1,9 @@
+{
+  "title": "XenOS Webapps",
+  "description": "Collection of webviews",
+  "version": "1.0.0",
+  "packages": [
+    "duckduckgo.com",
+    "discord.com"
+  ]
+}
