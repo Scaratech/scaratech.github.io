@@ -1,7 +1,8 @@
 <html>
   <body>
     <script>
-      console.log(parent);
+      console.log(top.xen);
+      top.xen.wm.create({ content: '<h1>xss</h1>' });
     </script>
   </body>
 </html>
