@@ -1,7 +1,8 @@
 <html>
   <body>
     <script>
-      window.xen.wm.create({ content: '<p>xss</p>' });
+      console.log(window.xen);
+      setTimeout(() => { window.xen.wm.create({ content: '<p>xss</p>' }) }, 100);
     </script>
   </body>
 </html>
