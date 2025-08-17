@@ -1,8 +1,10 @@
 <html>
   <body>
     <script>
-      console.log(top.xen);
-      top.xen.wm.create({ content: '<h1>xss</h1>' });
+setTimeout(() => {
+  console.log(top);
+  console.og(top.xen);
+}, "300");
     </script>
   </body>
 </html>
